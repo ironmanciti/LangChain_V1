@@ -72,7 +72,7 @@ async def run_agent_with_mcp(messages: list[object]) -> str:
     streamlit_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(streamlit_dir)
     chinook_agent_path = os.path.abspath(
-        os.path.join(project_root, "DB_MCP_Agent", "agent_server.py")
+        os.path.join(project_root, "DB_MCP_Agent", "xagent_server.py")
     )
 
     # ───────────────────────────────────────────────

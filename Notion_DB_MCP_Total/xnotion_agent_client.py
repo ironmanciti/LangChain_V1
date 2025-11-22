@@ -23,7 +23,7 @@ client = MultiServerMCPClient(
         "chinook": {
             "transport": "stdio",            # 로컬 서브프로세스(stdio)로 실행
             "command": "python",
-            "args": ["../DB_MCP_Agent/agent_server.py"],  # Chinook DB MCP 서버 스크립트 경로
+            "args": ["../DB_MCP_Agent/xagent_server.py"],  # Chinook DB MCP 서버 스크립트 경로
         },
         "notion": {
             "transport": "stdio",            # npx 로 Notion 공식 MCP 서버 실행
